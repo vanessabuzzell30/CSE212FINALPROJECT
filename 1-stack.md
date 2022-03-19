@@ -17,6 +17,7 @@ Stack is known as the backbone of the Data Structure in Python. Almost all the a
 ## STACK OF PANCAKES
 
 If you were going to make pancakes for your family or friends, you probably would have a plate ready to stack the hot pancakes on as they finished cooking. Each time we put a pancake onto the stack, we call this a **push** operation. In our culinary example, we might say that each new pancake goes onto the top of the stack. However, since we are going to implement our stacks in Python, we will say that the pancake is actually added to the back. When we take a pancake off to eat, we call this a **pop** operation. Notice that we **push** and **pop** from the back of the stack. Removing from the middle of the stack is not generally allowed (especially at the dinner table). Notice that the pancake at the front is the very first pancake that was cooked. If the pancakes are made faster than they are eaten, then this first pancake would get cold. A LIFO (Last In, First Out) structure like the **stack** can result in data not being used for a long time. This might not work well for a rotating stock system in a grocery store, but the real benefit of the stack is the ability to remember where we have been.
+
 ![Stack of Pancakes](PictureFiles/stackpancakes.png)
 
 ## THE "UNDO" OPTION AND THE STACK
@@ -53,12 +54,12 @@ Many code editors also include a debugger. Debuggers can be used to pause execut
 
 In Python, a stack can be represented using a list. To push an item to the back of the stack, the **append** function can be used on the list. To **pop** items from the back of the stack, the pop function can be used. The **pop** function will also delete it from the list. The size can be determined by using the **len** function on the list. The performance of the stack using a Python list is based on the performance of the dynamic array.
 
-| Common Stack Operation | Description                                              | Python Code            | Performance                                                    |     |
-| ---------------------- | -------------------------------------------------------- | ---------------------- | -------------------------------------------------------------- | --- |
+| Common Stack Operation | Description                                              | Python Code            | Performance                                                    |
+| ---------------------- | -------------------------------------------------------- | ---------------------- | -------------------------------------------------------------- |
 | push(value)            | Adds "value" to the back of the stack.                   | my_stack.append(value) | O(1) - Performance of adding to the end of a dynamic array     |
-| pop()                  | Removes and returns the item from the back of the stack. | value = my_stack.pop() | O(1) - Performance of removing from the end of a dynamic array |     |
-| size()                 | Return the size of the stack.                            | length = len(my_stack) | O(1) - Performance of returning the size of the dynamic array  |     |
-| empty()                | Returns true if the length of the stack is zero.         | if len(my_stack) == 0: | O(1) - Performance of checking the size of the dynamic array   |     |
+| pop()                  | Removes and returns the item from the back of the stack. | value = my_stack.pop() | O(1) - Performance of removing from the end of a dynamic array |
+| size()                 | Return the size of the stack.                            | length = len(my_stack) | O(1) - Performance of returning the size of the dynamic array  |
+| empty()                | Returns true if the length of the stack is zero.         | if len(my_stack) == 0: | O(1) - Performance of checking the size of the dynamic array   |
 
 ## Basic Operations Of Stack
 
@@ -78,10 +79,78 @@ The basic operations of Stack are mentioned below:
 
 ## Code Examples
 
+If you are an audible learner this youtube video will help.
+[Stack Data Structures Video](https://www.youtube.com/watch?v=LDVg4m2PpTg)
+
 ## Problem To Do
 
+# Problem 1
+
 Here is a problem for you to try to use stack to see if you understand what it does.
+
+```
+"""
+    vanessa buzzell
+    CSE212
+    BYU-Idaho
+    Problem 1
+"""
+
+stack = []
+stack.append('The')
+stack.append('cat')
+stack.append('went')
+stack.pop()
+stack.pop()
+stack.append('up')
+stack.append('the')
+stack.pop()
+stack.append('tree')
+stack.append('to')
+stack.append('get')
+stack.append('a')
+stack.pop()
+stack.pop()
+stack.append('mouse')
+stack.pop()
+stack.pop()
+stack.pop()
+stack.append('that')
+stack.append('took')
+stack.pop()
+stack.pop()
+stack.pop()
+stack.append('a')
+stack.append('slice')
+stack.append('of')
+stack.append('cheese')
+stack.pop()
+stack.pop()
+stack.pop()
+stack.append('to')
+stack.append('feed')
+stack.pop()
+stack.append('the')
+stack.append('squirl.')
+stack.pop()
+stack.pop()
+print(stack)  # Can you predict what will print?
+```
+
+# Problem 2
+
+In this problem you should look at the code and have an understanding of what it is doing. first remove the students who finished there work on time Elijah, Harper And Lorraine.
+Then add new students to the that need to get there assignments to finish Mike, and Sunny.
+[Problem 2](PythonFiles/StackP2.py)
 
 ## Solution
 
 Only look at the solution once you have tried to accomplish the problem on your own first to see how you did!
+
+# Problem 1
+
+Run the code to see if you were right! If you were not go back and see where you missed the code.
+
+# Probleem 2
+
+[solution](PythonFiles/stackProblem2.py)
