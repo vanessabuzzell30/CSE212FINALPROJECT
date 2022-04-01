@@ -80,6 +80,7 @@ The basic operations of Stack are mentioned below:
 ## Code Examples
 
 If you are an audible learner this youtube video will help.
+
 [Stack Data Structures Video](https://www.youtube.com/watch?v=LDVg4m2PpTg)
 
 # Problem To Do
@@ -141,6 +142,7 @@ print(stack)  # Can you predict what will print?
 
 In this problem you should look at the code and have an understanding of what it is doing. first remove the students who finished there work on time Elijah, Harper And Lorraine.
 Then add new students to the that need to get there assignments to finish Mike, and Sunny.
+
 [Problem 2](PythonFiles/stackP2.py)
 
 # Solutions
