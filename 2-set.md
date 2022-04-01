@@ -176,3 +176,7 @@ Click on the link to work on the problem number 2
 
 When you are done, take a look at the **Solution** and see how you did.
 [Problem 2](PythonFiles/setSolution2.py)
+
+## Back to Data Structure Tutorial
+
+[Main](0-welcome.md)

@@ -261,3 +261,7 @@ When you finish the problem you will need to look at the solution and compare yo
 
 - Solution
   [Solution ](PythonFiles/treeS2.py)
+
+## Back to Data Structure Tutorial
+
+[Main](0-welcome.md)

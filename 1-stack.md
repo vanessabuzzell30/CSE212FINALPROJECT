@@ -154,3 +154,7 @@ Run the code to see if you were right! If you were not go back and see where you
 # Probleem 2
 
 [solution](PythonFiles/stackProblem2.py)
+
+## Back to Data Structure Tutorial
+
+[Main](0-welcome.md)
