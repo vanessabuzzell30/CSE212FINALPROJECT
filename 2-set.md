@@ -51,7 +51,7 @@ Watch this YouTube video to get more understanding.
 
 Instead of looking for a new place for our data, we can make a list of values that occupy the same space.
 
-![Chaining Diagraming](PictureFiles/hashingChaining.png)
+![Chaining Diagraming](PictureFiles/hahingChaining.png)
 
 Diagram from https://www.researchgate.net/figure/Hash-table-representation-for-separate-chaining_fig2_284454241
 
@@ -160,21 +160,25 @@ This video will help if you need to learn by visualy and audible learner.
 
 Your goal is to write a program that will find and display all pairs of numbers in a list that sum up to 10. No duplicates should be displayed. This could be done in O(n^2) with a loop within a loop. However, using a set, this can be done in O(n) time. You should assume that the list of numbers provided has no duplicates.
 Click on the link to work on the problem number 1
+
 [Problem 1](PythonFiles/setProblem1.py)
 
 ### Problem 1 Solution
 
 When you are done, take a look at the **Solution** and see how you did.
+
 [Solution 1](PythonFiles/setSolution1.py)
 
 ### problem 2
 
 Click on the link to work on the problem number 2
+
 [Problem 2](PythonFiles/setProblem2.py)
 
 ### Problem 2 Solution
 
 When you are done, take a look at the **Solution** and see how you did.
+
 [Problem 2](PythonFiles/setSolution2.py)
 
 ## Back to Data Structure Tutorial

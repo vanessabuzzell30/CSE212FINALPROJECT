@@ -260,7 +260,7 @@ When you finish the problem you will need to look at the solution and compare yo
 ## Only look at the solution after you have tried to work the problem
 
 - Solution
-  [Solution ](PythonFiles/treeS2.py)
+  [Solution ](PythonFiles/treeP2.py)
 
 ## Back to Data Structure Tutorial
 

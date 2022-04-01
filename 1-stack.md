@@ -82,9 +82,9 @@ The basic operations of Stack are mentioned below:
 If you are an audible learner this youtube video will help.
 [Stack Data Structures Video](https://www.youtube.com/watch?v=LDVg4m2PpTg)
 
-## Problem To Do
+# Problem To Do
 
-# Problem 1
+### Problem 1
 
 Here is a problem for you to try to use stack to see if you understand what it does.
 
@@ -137,23 +137,23 @@ stack.pop()
 print(stack)  # Can you predict what will print?
 ```
 
-# Problem 2
+### Problem 2
 
 In this problem you should look at the code and have an understanding of what it is doing. first remove the students who finished there work on time Elijah, Harper And Lorraine.
 Then add new students to the that need to get there assignments to finish Mike, and Sunny.
-[Problem 2](PythonFiles/StackP2.py)
+[Problem 2](PythonFiles/stackP2.py)
 
-## Solution
+# Solutions
 
 Only look at the solution once you have tried to accomplish the problem on your own first to see how you did!
 
-# Problem 1
+### Problem 1
 
 Run the code to see if you were right! If you were not go back and see where you missed the code.
 
-# Probleem 2
+### Problem 2
 
-[solution](PythonFiles/stackProblem2.py)
+[solution](PythonFiles/stackS2.py)
 
 ## Back to Data Structure Tutorial
 
